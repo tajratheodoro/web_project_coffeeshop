@@ -177,7 +177,7 @@
 .recipes__subtitle {
   margin: 0 0 80px 0;
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
@@ -194,11 +194,10 @@
 .recipes__video-item {
   display: flex;
   flex-direction: column;
-  width: 480px;
 }
 
 .recipes__iframe {
-  width: 100%;
+  width: 480px;
   height: 273px;
   border: none;
 }
