@@ -41,17 +41,17 @@
 }
 
 .header {
-  background-color: #ffffff; /* [cite: 149] */
-  background-image: url(../images/background_header.svg); /* [cite: 150] */
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
   background-position: center;
-  background-size: cover; /* [cite: 151] */
+  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 720px; /*  */
-  max-height: 800px; /*  */
-  height: 100vh; /* [cite: 198] */
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative; /* Para ser referência da imagem absoluta */
+  position: relative;
   overflow: hidden;
 }
 
@@ -76,5 +76,16 @@
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
-  display: block; /* Quebra de linha */
+  display: block;
+}
+
+.header__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  position: relative;
+  left: 80px;
 }
