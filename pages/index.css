@@ -64,9 +64,7 @@
   line-height: 72px;
   letter-spacing: -1px;
   color: #000000;
-  position: relative;
-  top: 183px;
-  left: 80px;
+  margin: 183px 0 0 80px;
 }
 
 .header__span-accent {
@@ -86,6 +84,6 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  position: relative;
-  left: 80px;
+  margin-left: 80px;
+  margin-top: 28px;
 }
