@@ -31,3 +31,50 @@
   display: flex;
   gap: 20px;
 }
+
+.nav__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  background-color: #ffffff; /* [cite: 149] */
+  background-image: url(../images/background_header.svg); /* [cite: 150] */
+  background-position: center;
+  background-size: cover; /* [cite: 151] */
+  background-repeat: no-repeat;
+  min-height: 720px; /*  */
+  max-height: 800px; /*  */
+  height: 100vh; /* [cite: 198] */
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Para ser referência da imagem absoluta */
+  overflow: hidden;
+}
+
+.header__title {
+  max-width: 709px;
+  margin: 0 0 28px 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #000000;
+  position: relative;
+  top: 183px;
+  left: 80px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block; /* Quebra de linha */
+}
