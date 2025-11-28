@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Theodoro Tajra" />
-    <meta name="description" content="Um site para um projeto Triple Ten." />
+    <meta name="description" content="a website for a Tripleten project" />
     <meta
       name="keywords"
-      content="biblioteca, livros, leitura, projeto, tripleten"
+      content="library, books, reading, project, tripleten"
     />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" />
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +22,25 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffeeshop Logo"
+            class="nav__logo"
+          />
+
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Receitas</a></li>
+            <li>
+              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li><a href="#contact" class="nav__link">Contatos</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title"></h1>
+      </header>
 
       <main class="content">
         <section class="recipes"></section>
