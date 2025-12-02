@@ -1,0 +1,103 @@
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__title {
+  max-width: 709px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #000000;
+  margin: 183px 0 0 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  max-width: 683px;
+  margin-left: 80px;
+  margin-top: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  top: 124px;
+  width: 646px;
+  height: 568px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.header__footer {
+  margin-top: auto;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  width: max-content;
+  position: relative;
+  z-index: 2;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__paragraph_type_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #838383;
+  display: block;
+}
+
+.header__paragraph_type_address {
+  position: absolute;
+  right: 40px;
+  bottom: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  text-align: right;
+  z-index: 2;
+}
